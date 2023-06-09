@@ -20,8 +20,8 @@ metodos disponibles son:
 necesita el siguiente esquema de datos para enviar un usuario
 ```javascript
 {   
-    "name": "Miguel", 
-    "email": "Miguel@miguekl.lc", 
+    "name": "nombre", 
+    "email": "nombre@nombre.lc", 
     "password":"1234abcd"
 }
 ```
@@ -29,8 +29,8 @@ necesita el siguiente esquema de datos para enviar un usuario
 necesita el siguiente esquema de datos para editar un usuario
 ```javascript
 {   
-    "name": "Miguel", 
-    "email": "Miguel@miguekl.lc", 
+    "name": "nombre", 
+    "email": "nombre@nombre.lc", 
     "password":"1234abcd"
 }
 ```
