@@ -7,10 +7,10 @@
 <h2>dependencias:<h2>
 
 
-Docker desktop [enlace](https://www.docker.com/products/docker-desktop/) 
+* Docker desktop [enlace](https://www.docker.com/products/docker-desktop/) 
 
 
-#####wsl2 [enlace](https://learn.microsoft.com/en-us/windows/wsl/install-manual#:~:text=WSL2%20Linux%20kernel%20update%20package%20for%20x64%20machines) 
+* wsl2 [enlace](https://learn.microsoft.com/en-us/windows/wsl/install-manual#:~:text=WSL2%20Linux%20kernel%20update%20package%20for%20x64%20machines) 
 
 
 <h2>Requisitos:<h2>
