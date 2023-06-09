@@ -1,13 +1,27 @@
 #Iniciar proyecto
+
+
 ##Para iniciar el proyecto se necesita:
+
+
 ##dependencias:
+
+
 #####Docker desktop [enlace](https://www.docker.com/products/docker-desktop/) 
+
+
 #####wsl2 [enlace](https://learn.microsoft.com/en-us/windows/wsl/install-manual#:~:text=WSL2%20Linux%20kernel%20update%20package%20for%20x64%20machines) 
+
+
 ##Requisitos:
+
+
 * tener habilitado la virtualizacion de su maquina 
 * dentro de la carpeta del proyecto se debe ejecutar docker-compose up
 
 ##Metodos disponibles:
+
+
 
 metodos disponibles son:
 
