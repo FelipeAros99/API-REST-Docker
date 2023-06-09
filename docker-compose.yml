@@ -1,0 +1,38 @@
+version: '3'
+services:
+  mysql:
+    image: mysql:5.7
+    volumes:
+      - ./mysql/init.sql:/docker-entrypoint-initdb.d/init.sql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: tienda
+    restart: unless-stopped
+
+
+  # phpmyadmin:
+  #   image: phpmyadmin/phpmyadmin
+  #   ports:
+  #     - 8080:80
+  #   depends_on:
+  #     - mysql
+  #   environment:
+  #     PMA_HOST: mysql
+  #     PMA_PORT: 3306
+
+  # portainer:
+  #   image: portainer/portainer
+  #   ports:
+  #     - 9000:9000
+  #   volumes:
+  #     - /var/run/docker.sock:/var/run/docker.sock
+  nodejs:
+    build:
+      context: ./app
+    depends_on:
+      - mysql
+    restart: on-failure
+    ports:
+      - 3000:3000
+    environment:
+      MYSQL_HOST: mysql
